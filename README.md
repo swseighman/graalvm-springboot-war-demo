@@ -105,7 +105,7 @@ $ ./test.sh wildfly
 Stop the Wildfly server.
 
 Switch to the GraalVM Enterprise Edition 8 VM:```
-$ sdkman use java 8.0.271-oracle$ java -versionjava version "1.8.0_271"Java(TM) SE Runtime Environment (build 1.8.0_271-b09)Java HotSpot(TM) 64-Bit Server VM (build 25.271-b09, mixed mode)
+$ sdkman use java 20.3.0-r8-grlee$ java -versionjava version "1.8.0_271"Java(TM) SE Runtime Environment (build 1.8.0_271-b09)Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.3.0 (build 25.271-b09-jvmci-20.3-b06, mixed mode))
 ```
 Start Wildfly again:
 
